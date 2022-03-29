@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/food.css" type="text/css" media="all" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<div class="bg-img">
+    <div class="covid-box" >
+        <strong style="color: #b2910e;"> TRAVEL ADVISORY:</strong> See updates and precautionary measures for Covid-19 <a href="/covid">here.</a>
+    </div>
+    <div id="navbar">
+     <a class ="left-tag" href="\">TravelTrek</a>
+  <a class="right-tag" href="\contact">Contact Us</a>
+  <div class="dropdown">
+    <button class="dropbtn">Things to do
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="\food">Food</a>
+      <a href="\wellness">Wellness</a>
+      <a href="\adventurous">Adventurous</a>
+    </div>
+  </div> 
+  <a class="right-tag" href="\events">Events Calender</a>
+  <a class ="right-tag" href="\placesToGo">Places to go</a>
+  <a class="active right-tag" href="\">Home</a>
+</div>
+</div>
+
+<section class="py-5">
+    <div class="container"> 
+        <h2 class="l_header">Food & drinks</h2>
+        <p style="text-align: center; color: #E4C062;font-size: 20px; margin-left: 200px;margin-right: 200px;">Home to people from over 100 countries, TravelTrek is a truly multicultural society. Its varied dining scene reflects this rich diversity, featuring an electic range of influences.</p>
+    </div>   
+</section>
+
+
+<div class="row popularevent">
+    <div class="column " style=" width: 60%; height: 300px; overflow: hidden;margin: 0 auto; align-items: center; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+        <img src="https://www.visitqatar.qa/content/dam/visitqatar/img/things-to-do/food-and-drink/popular-restaurants-in-doha/smat.jpg/jcr:content/renditions/large-1920px.jpeg" />
+    </div>
+    <div class="column" style=" width: 40%; background-color: white;  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); height: 300px;">
+      <p style="color: black; margin: 40px; float: right;">Highlighted</p>
+      <p style="color: #005870; margin: 40px;">Chinese food mega set</p>
+      <p style="color: #897F7F; margin: 40px;">Chinese food tries to engage the mind, not just the palate.As long as there's pasta and Chinese food in the world, Everything is okay.</p>
+      <div >
+        <ul>
+            <li style="font-size: 20px; margin: 5px; list-style: none; color: #005870;"><i class="fa fa-map-marker"><span style="margin-left: 8px;">China</span></i></li>
+       </ul>
+      </div>    
+    </div>
+  </div>
+
+<div class="row" style="margin-bottom: 80px ;" >
+  {{#each fooditems}}
+<div class="column card" style="margin-left: 25px;margin-right: 15px;">
+    <img src={{this.food_img}} alt="Avatar" style="width:100%" height="250px">
+    <div class="card-container">
+      <p style="color: #897F7F;">{{this.food_type}}</p> 
+      <p>{{this.food_name}}</p>
+      <p style="color: #005870; font-size: 15px;">{{this.food_description}}</p>
+      <div >
+        <ul>
+            <li style="font-size: 20px; margin: 5px; list-style: none; color: #897F7F;"><i class="fa fa-map-marker"><span style="margin-left: 8px;">{{this.location}}</span></i></li>
+       </ul>
+      </div>
+    </div>
+</div>
+ {{/each}}
+</div>
+
+<div class="icon-bar">
+    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+    <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+  </div>
+<footer>
+    <div class="row">
+        <div class="footer-column">
+            <h2>About Us</h2>
+            <p>We are a travel and trek company based which delivers outstanding adventure travelling, trekking and mountain camping experiences.</p>
+        </div>
+        <div class="footer-column">
+            <h2>Contact Us</h2>
+            <h3>Location:</h3>
+            <p>H.No.254, Near Ram Lila Chowk, Chhattarpur Village, New Delhi-11007</p>
+            <h3>Phone:</h3>
+            <p>Phone: +121 098 8907 9987<br>
+                Emails: <a href="mailto:traveltrek@gmail.com">traveltrek@gmail.com</a></p>
+        </div>
+        <div class="footer-column">
+            <h2>Recent Posts</h2>
+            <img src="/images/first_image1.jpg" class="footer-image">
+            <img src="/images/first_image2.jpg" class="footer-image">
+            <img src="/images/first_image3.jpg" class="footer-image"><br>
+            <img src="/images/first_image4.jpg" class="footer-image">
+            <img src="/images/first_image5.jpg" class="footer-image">
+            <img src="/images/place2.jpg" class="footer-image"><br>
+            <img src="/images/place3.jpg" class="footer-image">
+            <img src="/images/place4.jpg" class="footer-image">
+            <img src="/images/place5.jpg" class="footer-image">
+        </div>
+        <div class="footer-column">
+            <h2>Subscribe</h2>
+            <p>Stay in touch with us, explore more adventurous places.</p>
+            <form method="post" class="newsletter">
+                <input class="email" type="email" placeholder="Enter your email" required>
+                <button class="btn-newsletter">
+                    <i class="fa fa-envelope"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+    
+    <div class="copyright">
+        <h4>Follow us now!</h4>
+        <div class="follow">
+            <ul>
+                <li>
+                    <a class="social-icon" href="#">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-icon" href="#">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-icon" href="#">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-icon" href="#">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="text">
+            <p>Copyright © 2021 TravelTrek. All Rights Reserved. 
+                <a href="index.html">TravelTrek</a>
+            </p>
+        </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</footer>
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

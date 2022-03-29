@@ -1,0 +1,111 @@
+[{
+  "_id": {
+    "$oid": "609f95f7fc39c15fce6dbbc0"
+  },
+  "active_cases": "6,841,287",
+  "country": "USA",
+  "new_cases": "+65,057",
+  "new_deaths": "+876",
+  "total_cases": "32,602,051",
+  "total_deaths": "583,330"
+},{
+  "_id": {
+    "$oid": "609f96d04b14601bdcb470ef"
+  },
+  "active_cases": "2,290,728",
+  "country": "India",
+  "new_cases": "+315,802",
+  "new_deaths": "+2,102",
+  "total_cases": "15,924,806",
+  "total_deaths": "184,672"
+},{
+  "_id": {
+    "$oid": "609f97114b14601bdcb470f0"
+  },
+  "active_cases": "1,053,800",
+  "country": "France",
+  "new_cases": "+34,968",
+  "new_deaths": "+313",
+  "total_cases": "5,374,288",
+  "total_deaths": "101,881"
+},{
+  "_id": {
+    "$oid": "609f97894b14601bdcb470f1"
+  },
+  "active_cases": "267,546",
+  "country": "Russia",
+  "new_cases": "+8,271",
+  "new_deaths": "+399",
+  "total_cases": "106,706",
+  "total_deaths": "101,881"
+},{
+  "_id": {
+    "$oid": "609f97914b14601bdcb470f2"
+  },
+  "active_cases": "261,747",
+  "country": "Mexico",
+  "new_cases": "+4,262",
+  "new_deaths": "+582",
+  "total_cases": "2,311,172",
+  "total_deaths": "213,048"
+},{
+  "_id": {
+    "$oid": "609f97c44b14601bdcb470f3"
+  },
+  "active_cases": "101,642",
+  "country": "UK",
+  "new_cases": "+2,396",
+  "new_deaths": "+22",
+  "total_cases": "4,395,703",
+  "total_deaths": "127,327"
+},{
+  "_id": {
+    "$oid": "609f97f54b14601bdcb470f4"
+  },
+  "active_cases": "10,582",
+  "country": "Nepal",
+  "new_cases": "+2,220",
+  "new_deaths": "+10",
+  "total_cases": "289,787",
+  "total_deaths": "3,112"
+},{
+  "_id": {
+    "$oid": "609f982a4b14601bdcb470f5"
+  },
+  "active_cases": "22,592",
+  "country": "Qatar",
+  "new_cases": "+819",
+  "new_deaths": "+9",
+  "total_cases": "199,180",
+  "total_deaths": "400"
+},{
+  "_id": {
+    "$oid": "609f985b4b14601bdcb470f6"
+  },
+  "active_cases": "305",
+  "country": "China",
+  "new_cases": "+21",
+  "new_deaths": "+0",
+  "total_cases": "90,541",
+  "total_deaths": "4,636"
+},{
+  "_id": {
+    "$oid": "609f98924b14601bdcb470f7"
+  },
+  "active_cases": "37,898",
+  "country": "Finland",
+  "new_cases": "+296",
+  "new_deaths": "+6",
+  "total_cases": "84,797",
+  "total_deaths": "899"
+},{
+  "_id": {
+    "$oid": "609f98c64b14601bdcb470f8"
+  },
+  "active_cases": "194",
+  "country": "Hong Kong\t",
+  "new_cases": "+1",
+  "new_deaths": "+0",
+  "total_cases": "11,705",
+  "total_deaths": "209"
+}]

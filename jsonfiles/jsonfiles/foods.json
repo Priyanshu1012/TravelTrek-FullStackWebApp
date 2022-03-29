@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "609ffff2fc39c15fce6dbbc2"
+  },
+  "food_name": "Street food",
+  "food_type": "Samboosa",
+  "location": "Dubai",
+  "food_img": "https://deqaandsuzie.files.wordpress.com/2015/06/samboosa.png",
+  "food_description": "Samboosa / samosa pastry* are long and rectangular and easily available in the frozen section of any supermarket in Dubai."
+},{
+  "_id": {
+    "$oid": "60a004474b14601bdcb470fe"
+  },
+  "food_name": "Popular dish",
+  "food_type": "Chilaquiles",
+  "location": "Mexico",
+  "food_img": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Portada-chilaquiles-rojos.jpg",
+  "food_description": "Chilaquiles, a Mexican dish consisting of strips or pieces of corn tortillas that are fried, then sautéed with green or red salsa, and topped with cheese, and onion."
+},{
+  "_id": {
+    "$oid": "60a004744b14601bdcb470ff"
+  },
+  "food_name": "Beverage",
+  "food_type": "Lassi,Shikanje",
+  "location": "India",
+  "food_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHP2ARLkCQYN2GO3b1HoLXV53y-6O2YqCrQA&usqp=CAU",
+  "food_description": "Lassi is a blend of yogurt, water, spices and sometimes fruit. Namkeen (salty) lassi is similar to doogh, while sweet and mango lassis are like milkshakes."
+},{
+  "_id": {
+    "$oid": "60a0049f4b14601bdcb47100"
+  },
+  "food_name": "Beverage",
+  "food_type": "Anchor Steam Beer,Espresso",
+  "location": "Sanfrascico",
+  "food_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKWrczNSifWJ7sk92yHPitIXpkMePrkUbJtQ&usqp=CAU",
+  "food_description": "Espresso Roast is a full-bodied medium-dark coffee blend that delivers notes of dark chocolate & smoky brown spice."
+},{
+  "_id": {
+    "$oid": "60a004a84b14601bdcb47101"
+  },
+  "food_name": "Fast food",
+  "food_type": "Sel Roti, Gorkhali Lamb",
+  "location": "Nepal",
+  "food_img": "https://t3.ftcdn.net/jpg/02/02/24/52/360_F_202245216_tSwSSw28MZZgiaAfTwzYEQaDFSNarb4a.jpg",
+  "food_description": "Sel roti (Nepali: सेल रोटी) is a traditional homemade ring-shaped rice bread originating from Nepal which is sweet in taste."
+},{
+  "_id": {
+    "$oid": "60a0051f4b14601bdcb47102"
+  },
+  "food_name": "Junk food",
+  "food_type": "Dumblings",
+  "location": "China",
+  "food_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrWCF9g103uzo2NJJ2g0qtlC0CAiQ_7CLO-g&usqp=CAU",
+  "food_description": "There are two broad categories of Chinese dumplings: gao, or crescent-shaped dumplings; and bao, or round, purse-shaped dumplings."
+}]

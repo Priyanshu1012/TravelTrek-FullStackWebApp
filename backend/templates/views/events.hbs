@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/events.css" type="text/css" media="all" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <div class="covid-box" >
+        <strong style="color: #b2910e;"> TRAVEL ADVISORY:</strong> See updates and precautionary measures for Covid-19 <a href="/covid">here</a>.
+    </div>
+    <div id="navbar">
+       <a class ="left-tag" href="\">TravelTrek</a>
+      <a class="right-tag" href="\contact">Contact Us</a>
+      <div class="dropdown">
+        <button class="dropbtn">Things to do
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="\food">Food</a>
+          <a href="\wellness">Wellness</a>
+          <a href="\adventurous">Adventurous</a>
+        </div>
+      </div> 
+      <a class="right-tag" href="\events">Events Calender</a>
+      <a class ="right-tag" href="\placesToGo">Places to go</a>
+      <a class="active right-tag" href="\">Home</a>
+    </div>
+
+<div class="slideshow-container">
+ 
+    <div class="mySlides fade">
+      <img src="https://images.unsplash.com/photo-1505842465776-3b4953ca4f44?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop" style="width:100%; height: 800px;">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="https://images.unsplash.com/photo-1587468388656-0013fb7dd1af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop" style="width:100%; height: 800px;">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="https://images.unsplash.com/photo-1547842897-3b253e8350e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop" style="width:100%; height: 800px;">
+    </div>
+ 
+    <div class="mySlides fade">
+        <img src="https://images.unsplash.com/photo-1585607344893-43a4bd91169a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop" style="width:100%; height: 800px;">
+      </div>
+    
+      <div class="mySlides fade">
+        <img src="https://images.unsplash.com/photo-1603228254119-e6a4d095dc59?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop" style="width:100%; height: 800px;">
+      </div>
+</div>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+
+<section class="py-5">
+    <div class="container"> 
+        <h2 class="l_header">Events Calendar</h2>
+        <p style="text-align: center; color: #E4C062;font-size: 20px; margin-left: 200px;margin-right: 200px;">Every place has a vibrant calendar of festivals and tourism events that take place every year and help build interest in the country’s diverse and authentic tourism offerings</p>
+    </div>   
+</section>
+
+<div class="row popularevent">
+    <div class="column " style=" width: 60%; height: 300px; overflow: hidden;margin-bottom: 20px; align-items: center; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+        <img src="/images/photography.jpg"/>
+    </div>
+    <div class="column" style=" width: 40%; background-color: white;  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); height: 300px;">
+      <p style="color: black; margin: 40px; float: right;">Highlighted</p>
+      <p style="color: #005870; margin: 40px;">Tasweer Photo Festival</p>
+      <p style="color: #897F7F; margin: 40px;">Tasweer Qatar photo festival has issued an open call for submissions for its new awards — and you could walk away with QR30,000.</p>
+      <div >
+        <ul>
+            <li style="font-size: 20px; margin: 5px; list-style: none; color: #005870;"><i class="fa fa-map-marker"><span style="margin-left: 8px;">Qatar</span></i></li>
+            <li style="font-size: 20px; margin: 5px; list-style: none; color: #005870;"><i class="fa fa-calendar"><span style="margin-left: 8px;">Mid October</span></i></li>
+       </ul>
+      </div>    
+    </div>
+  </div>
+<div class="load-more-container">
+  <input type="checkbox" id="load-more"/>
+  <ul>
+    {{#each data}}
+    <li>
+    <div style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); height: 475px;">
+      <img src="{{imgSrc}}" alt="Event" style="width:100%; height: 240px;">
+      <p style="color: #897F7F; font-size: 20px; margin-left: 15px;">{{eventType}}</p> 
+      <p style="font-size: 20px; margin-left: 15px;">{{name}}</p>
+      <p style="color: #8C1937; font-size: 15px; margin-left: 15px; margin-right: 10px;">{{desc}}</p>
+      <p style="height: 10px;font-size: 20px; margin: 20px; list-style: none; color: #897F7F;"><i class="fa fa-map-marker"><span style="margin-left: 8px;">{{location}}</span></i>
+      <p style="height: 10px;font-size: 20px; margin: 16px; list-style: none; color: #897F7F;"><i class="fa fa-calendar"><span style="margin-left: 8px;">{{time}}</span></i>
+    </div>
+      <div style="background-color: white; height: 30px; margin-bottom: 0;"></div>
+    </li>
+    {{/each}}
+  </ul>
+  
+  <label class="load-more-btn" for="load-more">
+    <span class="unloaded">LOAD MORE</span>
+    <span class="loaded">VIEW LESS</span>
+  </label>  
+</div>
+    
+
+<div class="icon-bar">
+    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+    <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+  </div>
+<footer>
+    <div class="row">
+        <div class="footer-column">
+            <h2>About Us</h2>
+            <p>We are a travel and trek company based which delivers outstanding adventure travelling, trekking and mountain camping experiences.</p>
+        </div>
+        <div class="footer-column">
+            <h2>Contact Us</h2>
+            <h3>Location:</h3>
+            <p>H.No.254, Near Ram Lila Chowk, Chhattarpur Village, New Delhi-11007</p>
+            <h3>Phone:</h3>
+            <p>Phone: +121 098 8907 9987<br>
+                Emails: <a href="mailto:traveltrek@gmail.com">traveltrek@gmail.com</a></p>
+        </div>
+        <div class="footer-column">
+            <h2>Recent Posts</h2>
+            <img src="/images/first_image1.jpg" class="footer-image">
+            <img src="/images/first_image2.jpg" class="footer-image">
+            <img src="/images/first_image3.jpg" class="footer-image"><br>
+            <img src="/images/first_image4.jpg" class="footer-image">
+            <img src="/images/first_image5.jpg" class="footer-image">
+            <img src="/images/place2.jpg" class="footer-image"><br>
+            <img src="/images/place3.jpg" class="footer-image">
+            <img src="/images/place4.jpg" class="footer-image">
+            <img src="/images/place5.jpg" class="footer-image">
+        </div>
+        <div class="footer-column">
+            <h2>Subscribe</h2>
+            <p>Stay in touch with us, explore more adventurous places.</p>
+            <form method="post" class="newsletter">
+                <input class="email" type="email" placeholder="Enter your email" required>
+                <button class="btn-newsletter">
+                    <i class="fa fa-envelope"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+    
+    <div class="copyright">
+        <h4>Follow us now!</h4>
+        <div class="follow">
+            <ul>
+                <li>
+                    <a class="social-icon" href="#">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-icon" href="#">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-icon" href="#">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-icon" href="#">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="text">
+            <p>Copyright © 2021 TravelTrek. All Rights Reserved. 
+                <a href="index.html">TravelTrek</a>
+            </p>
+        </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</footer>
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      
+      for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1
+      }    
+      for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" activea", "");
+      }
+
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " activea";
+
+      setTimeout(showSlides,4000); // Change image every 4 seconds
+    }
+</script>
+
+</body>
+</html>

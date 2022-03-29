@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Places to go-TravelTrek</title>
+    <link rel="stylesheet" href="css/placesToGo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="icon-bar">
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+    </div>
+    <div class="bg-img">
+    <div class="covid-box" >
+        <strong style="color: #b2910e;"> TRAVEL ADVISORY:</strong> See updates and precautionary measures for Covid-19 <a href="/covid">here</a>.
+    </div>
+    <div id="navbar">
+        <a class ="left-tag" href="\">TravelTrek</a>
+  <a class="right-tag" href="\contact">Contact Us</a>
+  <div class="dropdown">
+    <button class="dropbtn">Things to do
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="\food">Food</a>
+      <a href="\wellness">Wellness</a>
+      <a href="\adventurous">Adventurous</a>
+    </div>
+  </div> 
+  <a class="right-tag" href="\events">Events Calender</a>
+  <a class ="right-tag" href="\placesToGo">Places to go</a>
+  <a class="active right-tag" href="\">Home</a>
+    </div>
+    </div>
+    <section class="py-5">
+    <div class="container"> 
+        <h2 class="l_header">Places to go</h2>
+        <p style="text-align: center; color: #E4C062;font-size: 20px; margin-left: 200px;margin-right: 200px;">
+            The biggest adventure you can take is to travel the places you dream of.
+        </p>
+    </div>  
+    </section>
+    <div class="outer-grid">
+    <div class="inner-grid">
+        <div class="imageContainer">
+            <div class="img-hover-zoom"><img src="/images/place1.jpg"></div>
+            <div class="caption center">Paris</div>
+        </div>
+        <div class="imageContainer">
+            <div class="img-hover-zoom"><img src="/images/place2.jpg"></div>
+            <div class="caption center">London</div>
+        </div>
+    </div>
+    <div class="inner-grid">
+        <div class="imageContainer">
+            <div class="img-hover-zoom"><img src="/images/place3.jpg"></div>
+            <div class="caption center">Rome</div>
+        </div>
+        <div class="imageContainer">
+            <div class="img-hover-zoom"><img src="/images/place5.jpg"></div>
+            <div class="caption center">New York</div>
+        </div>
+    </div>
+    <div class="inner-grid">
+        <div class="imageContainer">
+            <div class="img-hover-zoom"><img src="/images/place4.jpg"></div>
+            <div class="caption center">Mumbai</div>
+        </div>
+        <div class="imageContainer">
+            <div class="img-hover-zoom"><img src="/images/place6.jpg"></div>
+            <div class="caption center">Santorini</div>
+        </div>
+    </div>
+    </div>
+    
+    <section class="py-5">
+        <div class="container"> 
+            <h2 class="l_header">Discover on-click</h2>
+            <p style="text-align: center; color: #E4C062;font-size: 20px; margin-left: 200px;margin-right: 200px;">
+                Traveling – it leaves you speechless, then turns you into a storyteller.
+            </p>
+        </div>  
+    </section>
+    <img src="/images/map.png" class="map-image" alt="map" usemap="#worldmap">
+    <map name="worldmap">
+        <area alt="eiffelTower" href="https://www.google.com/maps/place/Paris,+France" coords="636,51,53" shape="circle">
+        <area alt="greatWall" href="https://www.google.com/maps/place/Beijing,+China" coords="1164,92,66" shape="circle">
+        <area alt="statueLiberty" href="https://www.google.com/maps/place/New+York,+NY,+USA" coords="109,564,59" shape="circle">
+        <area alt="rio" href="https://www.google.com/maps/place/State+of+Rio+de+Janeiro,+Brazil" coords="591,662,59" shape="circle">
+        <area alt="cnTower" href="https://www.google.com/maps/place/Toronto,+ON,+Canada" coords="107,98,63" shape="circle">
+        <area alt="tajMahal" href="https://www.google.com/maps/place/Agra,+Uttar+Pradesh" coords="855,641,63" shape="circle">
+        <area alt="sydney" href="https://www.google.com/maps/place/Sydney+NSW,+Australia" coords="1177,491,63" shape="circle">
+    </map>
+    <div class="grad">
+    <section class="py-5">
+        <div class="container"> 
+            <h2 class="l_header">My #TravelTrek</h2>
+            <p style="text-align: center; color: #E4C062;font-size: 20px; margin-left: 200px;margin-right: 200px;">
+                Get an insider look at TravelTrek’s best destinations.<br>Let’s help you with personal stories, top tips, and must-do experiences.
+            </p>
+        </div>  
+    </section>
+    <section class="blog-post">
+        {{#each posts}}
+        <div class="card">
+            <div class="content">
+                <img src={{this.profile_img}} class="image-profile">
+                <div class="details">
+                    <h2>{  {{this.profile_name}}  }</h2>
+                </div>
+                <img src={{this.post_img}} class="image-full">
+            </div>
+        </div>
+        {{/each}}
+    </section>
+    <footer>
+        <div class="row">
+            <div class="footer-column">
+                <h2>About Us</h2>
+                <p>We are a travel and trek company based which delivers outstanding adventure travelling, trekking and mountain camping experiences.</p>
+            </div>
+            <div class="footer-column">
+                <h2>Contact Us</h2>
+                <h3>Location:</h3>
+                <p>H.No.254, Near Ram Lila Chowk, Chhattarpur Village, New Delhi-11007</p>
+                <h3>Phone:</h3>
+                <p>Phone: +121 098 8907 9987<br>
+                    Emails: <a href="mailto:traveltrek@gmail.com">traveltrek@gmail.com</a></p>
+            </div>
+            <div class="footer-column">
+                <h2>Recent Posts</h2>
+                <img src="/images/place1.jpg" class="footer-image">
+                <img src="/images/place2.jpg" class="footer-image">
+                <img src="/images/place3.jpg" class="footer-image"><br>
+                <img src="/images/place4.jpg" class="footer-image">
+                <img src="/images/place5.jpg" class="footer-image">
+                <img src="/images/place6.jpg" class="footer-image"><br>
+                <img src="/images/full-image1.jpg" class="footer-image">
+                <img src="/images/full-image2.jpg" class="footer-image">
+                <img src="/images/full-image4.jpg" class="footer-image">
+            </div>
+            <div class="footer-column">
+                <h2>Subscribe</h2>
+				<p>Stay in touch with us, explore more adventurous places.</p>
+				<form method="post" class="newsletter">
+					<input class="email" type="email" placeholder="Enter your email" required>
+					<button class="btn-newsletter">
+						<i class="fa fa-envelope"></i>
+					</button>
+				</form>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <h4>Follow us now!</h4>
+            <div class="follow">
+                <ul>
+                    <li>
+                        <a class="social-icon" href="#">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social-icon" href="#">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social-icon" href="#">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social-icon" href="#">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="text">
+                <p>Copyright © 2021 TravelTrek. All Rights Reserved. 
+                    <a href="index.html">TravelTrek</a>
+                </p>
+            </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+    </script>
+</body>
+</html>

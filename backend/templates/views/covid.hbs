@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/covid.css" type="text/css" media="all" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<div class="bg-img">
+    <div id="navbar">
+      <a class ="left-tag" href="\">TravelTrek</a>
+  <a class="right-tag" href="\contact">Contact Us</a>
+  <div class="dropdown">
+    <button class="dropbtn">Things to do
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="\food">Food</a>
+      <a href="\wellness">Wellness</a>
+      <a href="\adventurous">Adventurous</a>
+    </div>
+  </div> 
+  <a class="right-tag" href="\events">Events Calender</a>
+  <a class ="right-tag" href="\placesToGo">Places to go</a>
+  <a class="active right-tag" href="\">Home</a>
+</div>
+</div>
+
+<section class="py-5">
+    <div class="container"> 
+        <h2 class="l_header">Info for travellers on Covid-19 with TravelTrek</h2>
+    </div>   
+</section>
+
+<div class="content">
+    <p style="color: #848484;font-size: 22px;">Last Updated: May, 2021</p>
+    <p style="color: #848484;font-size: 22px;">Since the start of the novel coronavirus (COVID-19) outbreak, TravelTrek has closely monitored the situation and installed a series of proactive, comprehensive measures to combat the spread of the virus within the country and prepare its public health facilities. Past experience with other epidemics places countries in a strong position to protect its population as well as visitors passing through.</p>
+    <p style="color: #848484;font-size: 22px;">Travellers in different countries may have questions about the spread of the virus in various countries, as well as which policies are in place in countries. Below is a full overview of the COVID-19 situation in different countries as it relates to travellers. </p>
+    <img src="https://vietnam.travel/sites/default/files/inline-images/Screen%20Shot%202020-04-20%20at%2012.18.57%20PM.png" style="width: 100%;">
+    <div>
+        <h3 style="color: #9e0b0f;">Current snapshot of COVID-19 situation in various countries</h3><br>
+        <table style="font-size: 15px; color: black;">
+            <tr>
+              <th>Country</th>
+              <th>Total Cases</th>
+              <th>Total Deaths</th>
+              <th>New Cases</th>
+              <th>New Deaths</th>
+              <th>Active Cases</th>
+            </tr>
+            {{#each covid}}
+            <tr>
+              <td>{{this.country}}</td>
+              <td>{{this.total_cases}}</td>
+              <td>{{this.total_deaths}}</td>
+              <td>{{this.new_cases}}</td>
+              <td>{{this.new_deaths}}</td>
+              <td>{{this.active_cases}}</td>
+            </tr>
+            {{/each}}
+          </table>
+
+          <p style="margin-top:40px ; color: #848484;">Trip-planning during this time might be a bit more complicated than usual, but staying savvy and informed is key to a hassle-free trip. While the situation remains fluid, you can stay up-to-date on the most current travel restriction information below. Travellers should also visit the official websites of their intended destination or contact their travel agent, accommodation provider or tourism operator to learn about local restrictions.</p>
+          <span>Read more: <a style="text-decoration: none;" href="https://incredibleindia.org/content/incredible-india-v2/en/covid-19-travel-advisory.html">New Covid tourism policies</a></span><br>
+ 
+        <h3 style="color: #9e0b0f;">Visa policies for travellers</h3><br>
+    <img src="https://vietnam.travel/sites/default/files/inline-images/vietnam%20travel%20advisory%20coronavirus_-2.jpg" style="width: 100%;"><br>
+    <p style="color: #848484;">To staunch the spread of COVID-19, TravelTrek is only allowing entry to those foreign experts, and those travelling for official or diplomatic purposes, who must undergo medical checks and 21-day quarantine at their own cost upon arrival in different countries. </p>
+    <p style="color: #848484;">Visitors who entered the country before April 1 may be considered for the extension, provided they can show an official letter from their embassy or consulate stating they were unable to leave the country due to objective reasons (letter must be translated to other languages). Foreigners who have undergone quarantine or treatment for COVID-19 in different countries are also eligible for the extension. They must bring their certification documents to show immigration officials when leaving the country. </p>
+    <span>Read more: <a style="text-decoration: none;" href="https://www.passportindex.org/visa.php">Visa requirements</a></span><br><br>
+
+    <h3 style="color: #9e0b0f;">Health and safety precautions for travellers</h3><br>
+    <p>Visitors in different countries are encouraged to take sensible precautions against COVID-19 during their trips.</p>
+    <p>The World Health Organization outlines these basic practices to keep yourself and your loved ones safe:</p>
+    <ol>
+        <li><p><strong>Avoid travelling if you have a fever and cough.</strong> If you have fever, cough, and difficulty breathing, alert health care services and share with them your recent travel history.</p></li>
+        <li><p><strong>Maintain social distancing.</strong> Stay a metre or more away from others, especially those who are sneezing or coughing, or have fever.</p></li>
+        <li><p><strong>Wash your hands regularly with soap and running water. </strong>You can also use an alcohol-based hand-sanitizer to spray your hands as often as you like.</p></li>
+        <li><p><strong>Cover your mouth and nose with tissue when you cough or sneeze.</strong> Dispose of dirty tissues immediately and wash your hands after coughing or sneezing.</p></li>
+        <li><p><strong>Avoid contact with live animals.</strong> Wash your hands with soap and water if you touch live animals or animal products in markets.</p></li>
+        <li><p><strong>Eat only well-cooked food.</strong> Make sure your meals especially animal proteins and dairy products are thoroughly cooked and prepared in a sanitary environment.</p></li>
+        <li><p><strong>Discard single-use masks.</strong> If you choose to wear a single-use mask, ensure it covers your nose and mouth, avoid touching the mask, and wash your hands after removing it.</p></li>
+    </ol>
+    
+    <span>Read more: <a style="text-decoration: none;" href="https://www.betterhealth.vic.gov.au/health/HealthyLiving/travel-safety-tips">Health and safety tips</a></span><br>
+
+    <h3 style="color: #9e0b0f;">Online trackers and official government sites</h3><br>
+    <img src="https://vietnam.travel/sites/default/files/inline-images/vietnam%20travel%20advisory%20coronavirus_-3.jpg" style="width: 100%;"><br><br>
+
+    <span>Updates from the government: <a style="text-decoration: none;" href="https://www.skyscanner.co.in/news/corona-virus-information"> https://ncov.moh.gov.vn</a></span><br>
+    <span>News updates from Tourism: <a style="text-decoration: none;" href="https://www.traveltrendstoday.in/news/">https://traveltrek.travel/media-industry</a></span><br>
+
+    <p style="font-style: italic; color: #848484;font-size: 22px; ">The information above is compiled by the TravelTrek Tourism Advisory Board as a public service for travellers. This article will be updated weekly with new information from Country’s health, tourism and aviation authorities.</p>
+    
+    </div>
+</div>
+
+<div class="icon-bar">
+    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+    <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+  </div>
+<footer>
+    <div class="row">
+        <div class="footer-column">
+            <h2>About Us</h2>
+            <p>We are a travel and trek company based which delivers outstanding adventure travelling, trekking and mountain camping experiences.</p>
+        </div>
+        <div class="footer-column">
+            <h2>Contact Us</h2>
+            <h3>Location:</h3>
+            <p>H.No.254, Near Ram Lila Chowk, Chhattarpur Village, New Delhi-11007</p>
+            <h3>Phone:</h3>
+            <p>Phone: +121 098 8907 9987<br>
+                Emails: <a href="mailto:traveltrek@gmail.com">traveltrek@gmail.com</a></p>
+        </div>
+        <div class="footer-column">
+            <h2>Recent Posts</h2>
+            <img src="/images/first_image1.jpg" class="footer-image">
+            <img src="/images/first_image2.jpg" class="footer-image">
+            <img src="/images/first_image3.jpg" class="footer-image"><br>
+            <img src="/images/first_image4.jpg" class="footer-image">
+            <img src="/images/first_image5.jpg" class="footer-image">
+            <img src="/images/place2.jpg" class="footer-image"><br>
+            <img src="/images/place3.jpg" class="footer-image">
+            <img src="/images/place4.jpg" class="footer-image">
+            <img src="/images/place5.jpg" class="footer-image">
+        </div>
+        <div class="footer-column">
+            <h2>Subscribe</h2>
+            <p>Stay in touch with us, explore more adventurous places.</p>
+            <form method="post" class="newsletter">
+                <input class="email" type="email" placeholder="Enter your email" required>
+                <button class="btn-newsletter">
+                    <i class="fa fa-envelope"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+    
+    <div class="copyright">
+        <h4>Follow us now!</h4>
+        <div class="follow">
+            <ul>
+                <li>
+                    <a class="social-icon" href="#">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-icon" href="#">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-icon" href="#">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-icon" href="#">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="text">
+            <p>Copyright © 2021 TravelTrek. All Rights Reserved. 
+                <a href="index.html">TravelTrek</a>
+            </p>
+        </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</footer>
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

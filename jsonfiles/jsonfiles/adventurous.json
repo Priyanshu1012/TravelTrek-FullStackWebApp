@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "60a0175ffc39c15fce6dbbc4"
+  },
+  "cost": "INR 30,000",
+  "desc": "With such a futuristic architectural landscape covering the land and sea of the city, skydiving is one of the top adventure sports in Dubai.",
+  "image": "https://assets.traveltriangle.com/blog/wp-content/uploads/2019/08/Cover-Adventure-Sports-Dubai0310.jpg",
+  "location": "Dubai",
+  "name": "Skydiving",
+  "type": "Thrilling"
+},{
+  "_id": {
+    "$oid": "60a017c34b14601bdcb47108"
+  },
+  "cost": "INR 32,000",
+  "desc": "Every activity is designed with both parents and children in mind, making it the ideal vacation for the whole family.",
+  "image": "https://www.journeymexico.com/wp-content/uploads/2013/10/Andas-Makayoba-Heade-Riviera-Maya-Family-Adventure-376x257.jpg",
+  "location": "Mexico",
+  "name": "River rafting",
+  "type": "Travel"
+},{
+  "_id": {
+    "$oid": "60a017fa4b14601bdcb47109"
+  },
+  "cost": "INR 55,000",
+  "desc": "Bir Billing is quite popular amongst paragliders and why shouldn’t it be, after all, it is one of the highest places in the world for paragliding (4000 m).",
+  "image": "https://k6u8v6y8.stackpathcdn.com/blog/wp-content/uploads/2018/07/Best-Places-for-American-Adventure-Lovers-in-India.jpg",
+  "location": "India",
+  "name": "Bir Billing",
+  "type": "Most Visited"
+},{
+  "_id": {
+    "$oid": "60a018404b14601bdcb4710a"
+  },
+  "cost": "INR 20,000",
+  "desc": "It begins with the inventive endless slope ski deck. They assign the best-in-class educators who tailor sessions to a customer's capacities, qualities, and snow history.",
+  "image": "https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2019/01/Adventurous-Sports.jpg",
+  "location": "San francisco",
+  "name": "Skiing",
+  "type": "Adventurous"
+},{
+  "_id": {
+    "$oid": "60a018704b14601bdcb4710b"
+  },
+  "cost": "INR 43,000",
+  "desc": "The adventures treks in Nepal are: the Everest Base Camp Trek via Gokyo Valley, a 19-day trek to Mount Everest Base Camp, at 5,364 meters above sea level",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdHII3qKZY327-AdrQ3X22gAm5ecDeus2nNQ&usqp=CAU",
+  "location": "Nepal",
+  "name": "Trek in Nepal",
+  "type": "Thrilling"
+},{
+  "_id": {
+    "$oid": "60a018a34b14601bdcb4710c"
+  },
+  "cost": "INR 38,000",
+  "desc": "Tourist scuba dives under the sea around Saipan, the northern Mariana Islands in the western Pacific Ocean.It is a Lifetime experience.",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkQfnuEHGsxOdo5AK8oSHwnoIJwrDQ7Vvw9w&usqp=CAU",
+  "location": "China",
+  "name": "Underwater-diving",
+  "type": "Adventurous"
+}]

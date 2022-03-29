@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "60a008d5011f656ab15520e6"
+  },
+  "desc": "For amazing Cajun food, colorful beads, incredible jazz music, and a wild parade and party.",
+  "eventType": "Culture",
+  "imgSrc": "https://www.history.com/.image/c_fit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_620/MTU3ODc5MDgwMjU0Nzc2NjQ5/usa-festivals-new-orleans-mardi-gras-2007.jpg",
+  "location": "New Orleans, LA",
+  "name": "Mardi Gras Festival",
+  "time": "February"
+},{
+  "_id": {
+    "$oid": "60a00f129f447347181d6f76"
+  },
+  "desc": "Festival of lights that signifies the victory of light over darkness.",
+  "eventType": "Culture",
+  "imgSrc": "https://i.pinimg.com/originals/73/8e/f0/738ef08b6551bc66d3aff16a312c900b.jpg",
+  "location": "India",
+  "name": "Diwali",
+  "time": "Mid-October"
+},{
+  "_id": {
+    "$oid": "60a00f589f447347181d6f77"
+  },
+  "desc": "The most grueling bicycle races on the planet, this is not an event you want to miss.",
+  "eventType": "Sports",
+  "imgSrc": "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/2/2019/07/GettyImages-1155188525-920x582.jpg",
+  "location": "Paris, France",
+  "name": "Le Tour de France",
+  "time": "End of June"
+},{
+  "_id": {
+    "$oid": "60a011259f447347181d6f7a"
+  },
+  "desc": "Japanese ceremony in which participants float paper lanterns (chōchin) down a river.",
+  "eventType": "Culture",
+  "imgSrc": "https://i.pinimg.com/474x/ae/e3/73/aee373972af60f505bf4d5f94fbdd226.jpg",
+  "location": "Sasebo, Japan",
+  "name": "Tōrō Nagashi",
+  "time": "Mid-August"
+},{
+  "_id": {
+    "$oid": "60a010ce9f447347181d6f79"
+  },
+  "desc": "Gatherings of family and friends to pray for and remember people who have died.",
+  "eventType": "Culture",
+  "imgSrc": "https://www.nationalgeographic.com/amp-stories/travel/day-of-the-dead/assets/day-of-the-dead-women-skeletons.jpg",
+  "location": "City of Mexico",
+  "name": "Day of the Dead",
+  "time": "November"
+},{
+  "_id": {
+    "$oid": "60a010349f447347181d6f78"
+  },
+  "desc": "Plenty of good fortune with feasts, parades, lanterns, colorful costumes, and lots of rituals.",
+  "eventType": "Culture",
+  "imgSrc": "https://i.ytimg.com/vi/W4ge6vyHBOA/maxresdefault.jpg",
+  "location": "Shanghai, China",
+  "name": "Chinese New Year",
+  "time": "February"
+},{
+  "_id": {
+    "$oid": "60a017229f447347181d6f7b"
+  },
+  "desc": "The world’s most prestigious and highly anticipated international soccer/football competition.",
+  "eventType": "Sports",
+  "imgSrc": "https://www.mybucketlistevents.com/wp-content/uploads/2019/02/people-1284253_1280-768x440.jpg",
+  "location": "Qatar",
+  "name": "FIFA World Cup 2020",
+  "time": "End of November"
+},{
+  "_id": {
+    "$oid": "60a019599f447347181d6f7c"
+  },
+  "desc": "See the incredible works of art made from snow and ice at one of the most unique festivals in the world.",
+  "eventType": "Art",
+  "imgSrc": "https://www.mybucketlistevents.com/wp-content/uploads/2019/04/sApporo-768x513.jpg",
+  "location": "Sapporo, Japan",
+  "name": "Sapporo Snow Festival",
+  "time": "End of January"
+},{
+  "_id": {
+    "$oid": "60a01a179f447347181d6f7d"
+  },
+  "desc": "The festival presents a wide variety of musical and theatrical events in several venues.",
+  "eventType": "Art",
+  "imgSrc": "https://www.mybucketlistevents.com/wp-content/uploads/2017/09/ea7e76fc487864c50a58f862454f476b-bregenz-festival-stage-design.jpg",
+  "location": "Bregenz, Austria",
+  "name": "Bregenz Festival",
+  "time": "July and August"
+}]

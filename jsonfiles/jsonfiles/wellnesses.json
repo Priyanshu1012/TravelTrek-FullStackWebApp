@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "60a00d98fc39c15fce6dbbc3"
+  },
+  "resort_desc": "The Retreat Palm Dubai offers a range of yoga, weight-loss and fitness retreats, consultation services and one-to-one sessions to achieve your goal.",
+  "resort_img": "https://i0.wp.com/magazine.compareretreats.com/wp-content/uploads/2018/07/116019451.jpg?resize=1024%2C614&ssl=1",
+  "resort_location": "Dubai",
+  "resort_name": "Retreat Palm Dubai",
+  "resort_type": "Popular Resort"
+},{
+  "_id": {
+    "$oid": "60a00e8d4b14601bdcb47103"
+  },
+  "resort_desc": "Plunge yourself into paradise with a stay at this stunning beachfront yoga retreat, surrounded by towering palm trees and white sands.",
+  "resort_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-a3LSJf6m_rgsu1k8BZmjOP8KeTJlrXuKjQ&usqp=CAU",
+  "resort_location": "Mexico",
+  "resort_name": "Tulum, Quintana Roo",
+  "resort_type": "Most Visited resort"
+},{
+  "_id": {
+    "$oid": "60a00ecc4b14601bdcb47104"
+  },
+  "resort_desc": "Ananda Spa Rishikesh assists people to redefine their lifestyle by including tradition Indian wellness regimes of Ayurveda.",
+  "resort_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7GT4ryxDqHSeaTiUrsFosQ6cmhd4yyOsZfg&usqp=CAU",
+  "resort_location": "India",
+  "resort_name": "Ananda Spa Resort",
+  "resort_type": "Popular resort"
+},{
+  "_id": {
+    "$oid": "60a00f074b14601bdcb47105"
+  },
+  "resort_desc": "A fine-dining restaurant offers you the opportunity to relax after your massage without ever having to leave the hotel.",
+  "resort_img": "https://medicaltravelmarket.com/wp-content/uploads/2020/05/leela1-780x500.jpg",
+  "resort_location": "Sanfrascico",
+  "resort_name": "The Ritz-Carlton Hotel",
+  "resort_type": "Popular resort"
+},{
+  "_id": {
+    "$oid": "60a00f424b14601bdcb47106"
+  },
+  "resort_desc": "Sitting on the Himalayan's valley, Dwarika’s Resort in Dhulikhel is a retreat for solitude-starved souls.",
+  "resort_img": "http://media.cntraveller.in/wp-content/uploads/2015/01/Outdoor-Living-Space.jpg",
+  "resort_location": "Nepal",
+  "resort_name": "Dwarika's resort",
+  "resort_type": "Most Visited resort"
+},{
+  "_id": {
+    "$oid": "60a00f6c4b14601bdcb47107"
+  },
+  "resort_desc": "Eastern wisdom and Western reframe and renew the body, mind and spirit, as well as refine the art of meditation and find your focus.",
+  "resort_img": "https://destinationdeluxe.com/wp-content/uploads/2019/09/Wellness-Retreat-Luxury-Travel-China-Destination-Deluxe.jpg",
+  "resort_location": "China",
+  "resort_name": "Destination Deluxe",
+  "resort_type": "Popular resort"
+}]
